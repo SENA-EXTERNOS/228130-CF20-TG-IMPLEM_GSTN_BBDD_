@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://sena-externos.github.io/228130-CF20-TG-IMPLEM_GSTN_BBDD](https://sena-externos.github.io/228130-CF20-TG-IMPLEM_GSTN_BBDD)
+[https://sena-externos.github.io/228130-CF20-TG-IMPLEM_GSTN_BBDD_](https://sena-externos.github.io/228130-CF20-TG-IMPLEM_GSTN_BBDD_)
 
 #
 
