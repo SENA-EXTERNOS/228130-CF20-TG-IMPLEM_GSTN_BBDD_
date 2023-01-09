@@ -137,14 +137,14 @@
           .col-lg-7.mb-4.mb-lg-0
             p Se centran en el comportamiento del sistema, o cierta parte del componente del sistema, descrito en las especificaciones de los requerimientos.
             p Por ende, se definen a partir de funciones o características y su respectiva interoperabilidad con diferentes partes del sistema, lográndose ejecutar en todos los niveles de pruebas integración, componentes, sistemas, etc.
-            p Se consideran pruebas de caja negra (“black-box testing”) puesto que se valora el comportamiento externo del sistema. Las pruebas de seguridad o las pruebas de interoperabilidad entre sistemas o componentes son casos especializados de las pruebas funcionales (Ramos et al 2019).
+            p Se consideran pruebas de caja negra (“#[i black-box testing]”) puesto que se valora el comportamiento externo del sistema. Las pruebas de seguridad o las pruebas de interoperabilidad entre sistemas o componentes son casos especializados de las pruebas funcionales (Ramos et al 2019).
           .col-lg-5
             figure
               img(src='@/assets/curso/tema1/img9.svg', style="width: 450px").m-auto
       .py-4.py-md-5(titulo="No funcional" :icono="require('@/assets/curso/tema1/img7.svg')")
         .row.align-items-center
           .col-lg-7.mb-4.mb-lg-0
-            p Las pruebas no funcionales incluyen las de rendimiento, carga, estrés, usabilidad, mantenibilidad, fiabilidad o portabilidad, entre otras. Por ende, se centran en características del software que establecen “cómo trabaja el sistema” (Reyes et al, 2020).
+            p Las pruebas no funcionales incluyen las de rendimiento, carga, estrés, usabilidad, mantenibilidad, fiabilidad o portabilidad, entre otras. Por ende, se centran en características del #[i software] que establecen “cómo trabaja el sistema” (Reyes et al, 2020).
             p También se pueden ejecutar en todos los niveles de pruebas, se puede testear de diversas formas, por ejemplo, por tiempos de respuesta en el caso de pruebas de rendimiento o por número máximo de clientes conectados en pruebas de estrés.
           .col-lg-5
             figure

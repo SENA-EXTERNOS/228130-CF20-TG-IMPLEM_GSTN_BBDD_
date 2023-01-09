@@ -24,7 +24,6 @@
       .col
         p.mb-0 #[b Pruebas de #[i software] basadas en modelos]
     p.mb-5(data-aos="fade-right") A continuación, se presenta información sobre las pruebas de #[i software] como concepto, características, ventajas y modelos.
-    h4.mb-4.text-center Pruebas de #[i software] basadas en modelos
     .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-10
         ImagenInfografica.color-acento-contenido
@@ -108,23 +107,27 @@
                     ul.lista-ul
                       li 
                         i.fas.fa-check(style="color: #FFB30B")
-                        | Modelo de #[i McCall]
+                        | 
+                        p.mb-0 Modelo de #[i McCall]
                       li 
                         i.fas.fa-check(style="color: #FFB30B")
-                        | Modelo de #[i Boehm]
+                        | 
+                        p.mb-0 Modelo de #[i Boehm]
                       li 
                         i.fas.fa-check(style="color: #FFB30B")
-                        | Modelo de #[i Gilb]
+                        | 
+                        p.mb-0 Modelo de #[i Gilb]
                       li 
                         i.fas.fa-check(style="color: #FFB30B")
-                        | Modelo ISO 9126
+                        | 
+                        p.mb-0 Modelo ISO 9126
     .row.align-items-center.mb-4
       .col-auto.pe-0
         figure
           img(src='@/assets/curso/tema1/img4.svg', style="width: 30px").m-auto
       .col
         p.mb-0 #[b Modelos para realizar las pruebas de #[i software]]
-    p.mb-5(data-aos="fade-down") Los modelos más reconocidos para realizar las pruebas de software son los siguientes:
+    p.mb-5(data-aos="fade-down") Los modelos más reconocidos para realizar las pruebas de #[i software] son los siguientes:
     .tarjeta.tarjeta--azul.p-4(data-aos="fade-right")
       SlyderA(tipo="b")
         .row.m-1
@@ -214,7 +217,7 @@
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             p #[b Marco ISO 9126]
-            p Es un estándar en la ingeniería del software que se fundamenta en el nivel de satisfacción a nivel de producto. El objetivo principal en este tipo de modelo es que el producto cumpla con el requerimiento en un contenido específico de uso.
+            p Es un estándar en la ingeniería del #[i software] que se fundamenta en el nivel de satisfacción a nivel de producto. El objetivo principal en este tipo de modelo es que el producto cumpla con el requerimiento en un contenido específico de uso.
             p La norma está compuesta por seis factores:
             ul.lista-ul
               li 

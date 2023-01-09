@@ -7,7 +7,7 @@
       .titulo-principal__numero
         span 5
       h1 Plan de pruebas
-    p.mb-5(data-aos="fade-up") En la temática de pruebas de software resaltan dos términos que vale la pena profundizar y conocer.
+    p.mb-5(data-aos="fade-up") En la temática de pruebas de #[i software] resaltan dos términos que vale la pena profundizar y conocer.
     .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-10
         .bloque-texto-a.color-primario.p-4

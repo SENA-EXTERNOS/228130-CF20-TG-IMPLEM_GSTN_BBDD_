@@ -18,19 +18,19 @@
           li 
             i.fas.fa-check(style="color: #FFB30B")
             |
-            p.mb-0 Visión general de la ejecución de pruebas. Existe una gran variedad en la ejecución de las pruebas, se deben elegir la que mejor se adapten al equipo de prueba.
+            p.mb-0 Visión general de la ejecución de pruebas: existe una gran variedad en la ejecución de las pruebas, se deben elegir la que mejor se adapten al equipo de prueba.
           li 
             i.fas.fa-check(style="color: #FFB30B")
             |
-            p.mb-0 Flujo de trabajo de ejecución de caso de prueba. Las necesidades de ejecución de pruebas a veces pueden ser algo complejas, existen varias funcionalidades que se adaptan al flujo de trabajo para la ejecución de dichas pruebas.
+            p.mb-0 Flujo de trabajo de ejecución de caso de prueba: las necesidades de ejecución de pruebas a veces pueden ser algo complejas, existen varias funcionalidades que se adaptan al flujo de trabajo para la ejecución de dichas pruebas.
           li 
             i.fas.fa-check(style="color: #FFB30B")
             |
-            p.mb-0 Flujo de trabajo de ejecución de conjunto de pruebas Un conjunto de pruebas es una colección de pruebas que fueron agrupada. La gran mayoría de conjuntos de pruebas incluyen pruebas manuales y automatizadas, es de gran beneficio cuando se pueden planificar pruebas automatizadas sin ninguna supervisión. Cuando se procede a ejecutar un conjunto de pruebas, se puede especificar los casos de pruebas de forma secuencial o en paralelo.
+            p.mb-0 Flujo de trabajo de ejecución de conjunto de pruebas: un conjunto de pruebas es una colección de pruebas que fueron agrupada. La gran mayoría de conjuntos de pruebas incluyen pruebas manuales y automatizadas, es de gran beneficio cuando se pueden planificar pruebas automatizadas sin ninguna supervisión. Cuando se procede a ejecutar un conjunto de pruebas, se puede especificar los casos de pruebas de forma secuencial o en paralelo.
           li 
             i.fas.fa-check(style="color: #FFB30B")
             |
-            p.mb-0 Preferencias de ejecución de pruebas, Puede personalizar el comportamiento de la ejecución de prueba en su entorno configurando las preferencias del usuario y del sistema relacionadas con dicha ejecución de prueba.
+            p.mb-0 Preferencias de ejecución de pruebas: puede personalizar el comportamiento de la ejecución de prueba en su entorno configurando las preferencias del usuario y del sistema relacionadas con dicha ejecución de prueba.
     Separador
     #t_6_1
     .titulo-segundo.color-secundario
@@ -265,7 +265,7 @@
         figure
           img(src='@/assets/curso/tema6/img7.svg', style="width: 450px").m-auto
       .col-lg-8(data-aos="fade-left")
-        p Un caso de prueba es una serie de acciones de codificación que los programadores ejecutan para verificar diferentes funciones del software. Los casos de prueba contienen pasos de análisis, condiciones de comportamiento y resultados de las acciones.
+        p Un caso de prueba es una serie de acciones de codificación que los programadores ejecutan para verificar diferentes funciones del #[i software]. Los casos de prueba contienen pasos de análisis, condiciones de comportamiento y resultados de las acciones.
         p #[b Características]
         ul.lista-ul
           li 
@@ -323,7 +323,7 @@
               li 
                 i.fas.fa-check(style="color: #FFB30B")
                 |
-                p.mb-0 Pruebas unitarias evidencias que la lógica del código funciona como se espera o cumple con el requerimiento.
+                p.mb-0 Las pruebas unitarias evidencias que la lógica del código funciona como se espera o cumple con el requerimiento.
               li 
                 i.fas.fa-check(style="color: #FFB30B")
                 |
@@ -415,8 +415,8 @@
       .py-4.py-md-5(titulo="IEEE 1012" :icono="require('@/assets/curso/tema6/img8.svg')")
         .row
           .col-lg-7.mb-4.mb-lg-0
-            p El IEEE 1012 es un estándar que se sustenta en la verificación y validación de #[I software], este procedimiento se basa en normas de calidad de modelos de vida de un #[I software]. Contiene cuatro niveles de integridad que describen su relevancia, variando desde baja hasta alta integridad para el usuario.
-            p Estos niveles son valores que representan complejidad, criticidad, nivel de seguridad, entre otros y que precisan la trascendencia del #[I software] para el usuario final. Estas características determinan el nivel de integridad teniendo en cuenta el objetivo y uso del sistema.
+            p El IEEE 1012 es un estándar que se sustenta en la verificación y validación de #[i software], este procedimiento se basa en normas de calidad de modelos de vida de un #[i software]. Contiene cuatro niveles de integridad que describen su relevancia, variando desde baja hasta alta integridad para el usuario.
+            p Estos niveles son valores que representan complejidad, criticidad, nivel de seguridad, entre otros y que precisan la trascendencia del #[i software] para el usuario final. Estas características determinan el nivel de integridad teniendo en cuenta el objetivo y uso del sistema.
             p El nivel de integridad permite identificar el número de tareas a desarrollarse, entre más alto, es mayor el número de tareas a realizar, siendo estas más rigurosas. 
             p Componentes de la documentación IEEE
             ul.lista-ul
@@ -446,7 +446,7 @@
       .py-4.py-md-5(titulo="IEEE 829" :icono="require('@/assets/curso/tema6/img9.svg')")
         .row
           .col-lg-7.mb-4.mb-lg-0
-            p La documentación de las pruebas de #[I software] o bases de datos es muy importante para llevar el control de las diferentes actividades que se han ejecutado. El estándar 829 para la documentación de prueba de #[I software] y sistema pertenece a un estándar de IEEE que especifica la manera de implementar los documentos para su uso en las ocho fases definidas de prueba de #[I software]. En cada una de las fases se especifica qué documento se debe diligenciar para llevar una documentación completa.
+            p La documentación de las pruebas de #[i software] o bases de datos es muy importante para llevar el control de las diferentes actividades que se han ejecutado. El estándar 829 para la documentación de prueba de #[i software] y sistema pertenece a un estándar de IEEE que especifica la manera de implementar los documentos para su uso en las ocho fases definidas de prueba de #[i software]. En cada una de las fases se especifica qué documento se debe diligenciar para llevar una documentación completa.
             P Documentos requeridos por la norma IEEE 829
             ul.lista-ul
               li 
@@ -488,7 +488,7 @@
               li 
                 i.fas.fa-check(style="color: #FFB30B")
                 |
-                p.mb-0 Informe de prueba maestro (MTR). Se registra cada una las fases realizadas en la ejecución de las pruebas, también contiene cada una de las evaluaciones de calidad realizadas, las acciones de corrección ejecutadas. Además, se registra qué pruebas se realizaron y cuánto fue su duración, para mejoras en futuras planificaciones. Este documento final se utiliza para indicar si el sistema de #[I software] bajo prueba es apto para el propósito de acuerdo con el cumplimiento de los criterios de aceptación.
+                p.mb-0 Informe de prueba maestro (MTR). Se registra cada una las fases realizadas en la ejecución de las pruebas, también contiene cada una de las evaluaciones de calidad realizadas, las acciones de corrección ejecutadas. Además, se registra qué pruebas se realizaron y cuánto fue su duración, para mejoras en futuras planificaciones. Este documento final se utiliza para indicar si el sistema de #[i software] bajo prueba es apto para el propósito de acuerdo con el cumplimiento de los criterios de aceptación.
           .col-lg-5
             figure
               img(src='@/assets/curso/tema6/img13.png', style="width: 450px").m-auto

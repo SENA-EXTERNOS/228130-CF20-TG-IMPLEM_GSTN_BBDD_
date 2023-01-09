@@ -96,7 +96,7 @@
         .row.justify-content-center.m-1(titulo="Paso 8")
           .col-lg-6.mb-4.mb-lg-0
             p #[b Pruebas de comunicación]
-            p Son las encargadas de medir si hay comunicación con los diferentes dispositivos hardware, con la respectiva base de datos.
+            p Son las encargadas de medir si hay comunicación con los diferentes dispositivos #[i hardware], con la respectiva base de datos.
           .col-lg-4
             figure
               img(src='@/assets/curso/tema2/img9.png', style="width: 350px").m-auto
@@ -117,7 +117,7 @@
         .row.justify-content-center.m-1(titulo="Paso 11")
           .col-lg-6.mb-4.mb-lg-0
             p #[b Prueba de disponibilidad de datos]
-            p Se enfoca en la respuesta de los daros desde la base de datos, con el objetivo de realizar la medición o posibles fallos inesperados.
+            p Se enfoca en la respuesta de los datos desde la base de datos, con el objetivo de realizar la medición o posibles fallos inesperados.
           .col-lg-4
             figure
               img(src='@/assets/curso/tema2/img12.png', style="width: 350px").m-auto
