@@ -16,7 +16,8 @@
                 img(src='@/assets/curso/tema3/img1.svg', style="width: 350px").m-auto
             .col-lg-8.border-c1.p-4
               .bloque-texto-a__texto.p-4
-                p Los modelos de referencia para pruebas son una base fundamental para tener como guía al momento de empezar a construir un plan de pruebas, permite visualizar la metodología a implementar y cómo está compuesto cada uno de sus artefactos con el objetivo de llevar un control en cada una de las etapas y sus correspondientes documentos diligenciados como productos y/o entregables.
+                p Los modelos de referencia para pruebas, son una base fundamental para tener como guía al momento de empezar a construir un plan de pruebas; permite visualizar la metodología a implementar y el cómo está compuesto cada uno de sus artefactos con el objetivo de llevar un control en cada una de las etapas y sus correspondientes documentos, diligenciados como productos y/o entregables.
+
     .row.align-items-center.mb-4
       .col-auto.pe-0
         figure
@@ -108,19 +109,20 @@
                       li 
                         i.fas.fa-check(style="color: #FFB30B")
                         | 
-                        p.mb-0 Modelo de #[i McCall]
+                        p.mb-0 Modelo de <em>McCall</em>.
                       li 
                         i.fas.fa-check(style="color: #FFB30B")
                         | 
-                        p.mb-0 Modelo de #[i Boehm]
+                        p.mb-0 Modelo de #[i Boehm].
                       li 
                         i.fas.fa-check(style="color: #FFB30B")
                         | 
-                        p.mb-0 Modelo de #[i Gilb]
+                        p.mb-0 Modelo de #[i Gilb].
                       li 
                         i.fas.fa-check(style="color: #FFB30B")
                         | 
-                        p.mb-0 Modelo ISO 9126
+                        p.mb-0 Modelo ISO 9126.
+
     .row.align-items-center.mb-4
       .col-auto.pe-0
         figure
@@ -146,8 +148,6 @@
                 | Transición.
             p Cada uno de esos parámetros se subdividen en diferentes características que son de gran ayuda para determinar la respectiva validación.
           .col-lg-6
-            .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Figura 1.] Modelo #[i McCall]
             figure
               img(src='@/assets/curso/tema3/img3.svg', style="width: 550px").m-auto
         .row.m-1
@@ -169,15 +169,15 @@
                 | Evaluación del cliente.
             p Las versiones del sistema a evaluar están dirigidas por el número de iteraciones que va a ser representada en forma de espiral de adentro hacia a fuera, determinando el riesgo y la posible solución.
           .col-lg-6
-            .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Figura 1.] Modelo #[i Boehm]
             figure
               img(src='@/assets/curso/tema3/img4.svg', style="width: 550px").m-auto
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             p #[b Paradigma GQM (#[i Goal-Question-Metric])]
-            p Este modelo se enfoca en los componentes de mejora en los procesos, creado por Basili y Rombaches por medio de un paradigma que se requiere evaluar mediante preguntas y establecer el cumplimiento de los objetivos.
+            p Este modelo se enfoca en los componentes de mejora en los procesos, creado por Basili y Rombaches en 1984, por medio de un paradigma que se requiere evaluar mediante preguntas, y establecer el cumplimiento de los objetivos.
+
             p Los puntos relevantes en este modelo son:
+
             p #[b Metas]: que son los objetivos, las intenciones específicas y generales que va a tener dicha organización.
             p #[b Preguntas]: se establecen los cuestionarios para cada uno de los objetivos con su correspondiente evaluación.
             p #[b Métricas]: son la medición con base en las respuestas de las preguntas; cabe indicar que se realiza un análisis de si esa métrica ayudó al proceso cumpliendo el objetivo deseado.
@@ -217,7 +217,8 @@
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             p #[b Marco ISO 9126]
-            p Es un estándar en la ingeniería del #[i software] que se fundamenta en el nivel de satisfacción a nivel de producto. El objetivo principal en este tipo de modelo es que el producto cumpla con el requerimiento en un contenido específico de uso.
+            p Es un estándar en la ingeniería del software que se fundamenta en relación a la escala de satisfacción a nivel del producto. El objetivo principal en este tipo de modelo es que el producto cumpla con el requerimiento en un contenido específico de uso.
+
             p La norma está compuesta por seis factores:
             ul.lista-ul
               li 
@@ -244,7 +245,8 @@
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             p #[b Marco ISO 9126]
-            p La calidad interna y externa expuesta en ISO9126-1 (2001) se declara “la totalidad de atributos de un producto que determina su capacidad de satisfacer necesidades explícitas e implícitas cuando es usadas bajo condiciones específicas”. Se define como calidad externa “el grado en la que un producto satisface necesidades explícitas e implícitas cuando se utiliza bajo condiciones especificadas.
+            p Es un estándar en la ingeniería del software que se fundamenta en relación a la escala de satisfacción a nivel del producto. El objetivo principal en este tipo de modelo es que el producto cumpla con el requerimiento en un contenido específico de uso.
+            
           .col-lg-6
             figure
               img(src='@/assets/curso/tema3/img4.png', style="width: 550px").m-auto

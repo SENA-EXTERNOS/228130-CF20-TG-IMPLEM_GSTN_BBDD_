@@ -9,36 +9,44 @@
       h1 Pruebas
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
-        p Las pruebas de base de datos son aquellas que se realizan para comprobar los diferentes métodos y procesos implementados en la gestión de la base de datos, para asegurarse que cumplan las diferentes reglas de los datos como se espera, y durante la manipulación de los mismos, que aquellos no difieran, o sean borrados, creados o modificados de manera inesperada. También las pruebas abordan el concepto de calidad de los servicios en cuanto a la efectividad de los datos y la concurrencia de los usuarios a dicha bases.
-        .cajon.color-acento-contenido.p-4
-          p.mb-0 Además, las pruebas son una técnica de detención de defectos que se caracteriza por construir fallas o errores de manera planificada. El objetivo es detectar fallas antes del paso a producción.
+        p Las pruebas de base de datos, son aquellas que se realizan para comprobar los diferentes métodos y procesos implementados en la gestión de estas bases, para asegurarse que se cumplan las diferentes reglas sobre los datos, como se espera, en su manipulación, que no difieran, o sean borrados, creados o modificados de manera inesperada. También las pruebas abordan el concepto de calidad de los servicios, en cuanto a la efectividad de los datos y la concurrencia de los usuarios a dicha bases.
       .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img1.svg', style="width: 450px").m-auto
-    .row.align-items-center.mb-4
-      .col-auto.pe-0
-        figure
-          img(src='@/assets/curso/tema1/img4.svg', style="width: 30px").m-auto
-      .col
-        p.mb-0 #[b Diseño de casos de prueba]
+    
+    .row.mt-5.justify-content-center
+      .col-lg-12
+        .cajon.color-acento-contenido.p-4
+          p.mb-0 Además, las pruebas son una técnica de detención de defectos que se caracteriza por construir fallas o errores de manera planificada. El objetivo es detectar fallas antes del paso a producción.
+    
+    .row.mt-5
+      ul.lista-ul--color.lista-ul--separador
+          li 
+            i.fas.fa-square
+            h3 Diseño de casos de prueba
+
     .row.align.items-center
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema1/img1.png', style="width: 450px").m-auto
       .col-lg-7(data-aos="fade-left")
-        p El diseño de casos de prueba es una parte fundamental en las diferentes pruebas por componentes y sistemas de bases de datos, en donde se diseñan casos de prueba (entradas y salidas esperadas) para la comprobación del sistema de BD.
-        p El objetivo crucial en el diseño de casos de prueba es construir un conjunto de ellos que sea eficiente, descubriendo posibles defectos en los programas y como resultado final se demuestra que el sistema de bases de datos cumple o satisface los requerimientos (Blanquicett, et al. 2018).
+        p El diseño de casos de prueba es una parte fundamental en los diferentes ensayos por componentes y sistemas de bases de datos, en donde se formulan casos de prueba (entradas y salidas esperadas) para la comprobación del sistema de BD.
+
+        p El objetivo crucial en el diseño de casos de prueba, es construir un conjunto de ellos que sea eficiente, descubriendo posibles defectos en los programas y como resultado final se demuestra que el sistema de bases de datos cumple o satisface los requerimientos. (Blanquicett, et al. 2018)
+
         p Cómo se diseña un caso de prueba:
+
         ul.lista-ul
           li 
             i.fas.fa-check(style="color: #FFB30B")
-            | Selecciona una característica de la base de datos o el componente que se desea probar.
+            | Seleccionar una característica de la base de datos, o el componente que se desea probar.
           li 
             i.fas.fa-check(style="color: #FFB30B")
             | Seleccionar un conjunto de entradas que ejecutarán las características pertinentes.
           li 
             i.fas.fa-check(style="color: #FFB30B")
             | Documentar las salidas obtenidas o los diferentes rangos de salida.
+
     p.mb-5(data-aos="fade-up") En la actualidad existen una gran variedad de aproximaciones que sirven como guía para generar diseños de casos de prueba: pruebas basadas en requerimientos, pruebas de particiones y pruebas estructurales.
     h4.text-center.mb-5 Diseños de casos de prueba
     .row.justify-content-center.mb-5(data-aos="fade-down")
@@ -54,10 +62,11 @@
               .col-12
                 .row.bg-c1.m-0.p-0
                   .col-12.p-3
-                    p Este tipo de pruebas consiste en identificar #[b particiones] de entradas y salidas, y se diseñan las respectivas pruebas para que el sistema ejecute las entradas correspondientes a todas esas particiones y genere sus salidas.
+                    p Este tipo de pruebas consiste en identificar particiones de entradas y salidas, y se diseñan las respectivas pruebas para que el sistema ejecute las entradas correspondientes a todas esas particiones y genere sus salidas.
+
                     p Para tener en cuenta: las particiones son datos agrupados según características comunes.
-                    p.mb-0 Una buena práctica para seleccionar caso de pruebas consiste en la elección de casos de pruebas en los límites de las particiones junto con casos de pruebas cercanos al punto medio de las particiones, se eligen de acuerdo con las especificaciones del programa.
-          .tarjeta.color-acento-botones.p-2(x="44%" y="50%" numero="+").shadow-lg
+
+                    p.mb-0 Una buena práctica para seleccionar un caso de pruebas, consiste en seleccionarlos en los límites de las particiones, junto con casos de prueba cercanos al punto medio de las particiones, que se eligen, de acuerdo con las especificaciones del programa.
             .row
               .col-12.p-2
                 p.text-center.txt-c1.mb-0 #[b Pruebas basadas en requerimientos]
@@ -136,16 +145,21 @@
         .row.align-items-center
           .col-lg-7.mb-4.mb-lg-0
             p Se centran en el comportamiento del sistema, o cierta parte del componente del sistema, descrito en las especificaciones de los requerimientos.
+
             p Por ende, se definen a partir de funciones o características y su respectiva interoperabilidad con diferentes partes del sistema, lográndose ejecutar en todos los niveles de pruebas integración, componentes, sistemas, etc.
-            p Se consideran pruebas de caja negra (“#[i black-box testing]”) puesto que se valora el comportamiento externo del sistema. Las pruebas de seguridad o las pruebas de interoperabilidad entre sistemas o componentes son casos especializados de las pruebas funcionales (Ramos et al 2019).
+
+            p Se consideran pruebas de caja negra (“black-box testing”) puesto que se valora el comportamiento externo del sistema. Las pruebas de seguridad o las pruebas de interoperabilidad entre sistemas o componentes, son casos especializados de las pruebas funcionales. (Ramos et al 2019)
+
           .col-lg-5
             figure
               img(src='@/assets/curso/tema1/img9.svg', style="width: 450px").m-auto
       .py-4.py-md-5(titulo="No funcional" :icono="require('@/assets/curso/tema1/img7.svg')")
         .row.align-items-center
           .col-lg-7.mb-4.mb-lg-0
-            p Las pruebas no funcionales incluyen las de rendimiento, carga, estrés, usabilidad, mantenibilidad, fiabilidad o portabilidad, entre otras. Por ende, se centran en características del #[i software] que establecen “cómo trabaja el sistema” (Reyes et al, 2020).
+            p Las pruebas no funcionales incluyen las de rendimiento, carga, estrés, usabilidad, mantenibilidad, fiabilidad o portabilidad, entre otras. Por ende, se centran en características del software que establecen “cómo trabaja el sistema”.
+
             p También se pueden ejecutar en todos los niveles de pruebas, se puede testear de diversas formas, por ejemplo, por tiempos de respuesta en el caso de pruebas de rendimiento o por número máximo de clientes conectados en pruebas de estrés.
+
           .col-lg-5
             figure
               img(src='@/assets/curso/tema1/img10.svg', style="width: 350px").m-auto

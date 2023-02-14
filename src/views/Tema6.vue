@@ -18,23 +18,28 @@
           li 
             i.fas.fa-check(style="color: #FFB30B")
             |
-            p.mb-0 Visión general de la ejecución de pruebas: existe una gran variedad en la ejecución de las pruebas, se deben elegir la que mejor se adapten al equipo de prueba.
+            p.mb-0 Visión general de la ejecución de pruebas. Existe una gran variedad en la ejecución de las pruebas y se deben elegir las que mejor se adapten al equipo de prueba.
+
           li 
             i.fas.fa-check(style="color: #FFB30B")
             |
-            p.mb-0 Flujo de trabajo de ejecución de caso de prueba: las necesidades de ejecución de pruebas a veces pueden ser algo complejas, existen varias funcionalidades que se adaptan al flujo de trabajo para la ejecución de dichas pruebas.
+            p.mb-0 Flujo de trabajo de ejecución de caso de prueba. Las necesidades de ejecución de pruebas a veces pueden ser algo complejas, existen varias funcionalidades que se adaptan al flujo de trabajo para la ejecución de dichas pruebas.
+
           li 
             i.fas.fa-check(style="color: #FFB30B")
             |
-            p.mb-0 Flujo de trabajo de ejecución de conjunto de pruebas: un conjunto de pruebas es una colección de pruebas que fueron agrupada. La gran mayoría de conjuntos de pruebas incluyen pruebas manuales y automatizadas, es de gran beneficio cuando se pueden planificar pruebas automatizadas sin ninguna supervisión. Cuando se procede a ejecutar un conjunto de pruebas, se puede especificar los casos de pruebas de forma secuencial o en paralelo.
+            p.mb-0 Flujo de trabajo de ejecución de conjunto de pruebas. Un conjunto de pruebas es una colección de pruebas que fueron agrupadas. La gran mayoría de conjuntos de pruebas incluyen pruebas manuales y automatizadas y es de gran beneficio, cuando se pueden planificar pruebas automatizadas sin ninguna supervisión. Cuando se procede a ejecutar un conjunto de pruebas, se pueden especificar los casos de pruebas, de forma secuencial o en paralelo.
+
           li 
             i.fas.fa-check(style="color: #FFB30B")
             |
-            p.mb-0 Preferencias de ejecución de pruebas: puede personalizar el comportamiento de la ejecución de prueba en su entorno configurando las preferencias del usuario y del sistema relacionadas con dicha ejecución de prueba.
-    Separador
-    #t_6_1
-    .titulo-segundo.color-secundario
-      h2 6.1  Creación del entorno
+            p.mb-0 Preferencias de ejecución de pruebas. Pueden personalizar el comportamiento de la ejecución de prueba en su entorno, configurando las preferencias del usuario y del sistema, relacionadas con dicha ejecución de prueba.
+    
+    .row.mt-5
+      ul.lista-ul--color.lista-ul--separador
+          li 
+            i.fas.fa-square
+            h3 Creación del entorno
     .row.mb-4
       .col-lg-1.mb-4.mb-lg-0(data-aos="fade-right")
         figure
@@ -45,32 +50,37 @@
     .row.mb-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         .cajon.color-acento-contenido.p-4.mb-4
-          p.mb-0 Los entornos de pruebas se construyen lo más similar posible al entorno de producción, de esta forma al sistema o a la base de datos se pueden realizar dichas pruebas, teniendo en cuenta los cambios sustanciales y el comportamiento no esperado.
+          p.mb-0 Los entornos de pruebas se construyen lo más similar posible al entorno de producción; de esta forma, al sistema o, a la base de datos, se les pueden realizar dichas pruebas, teniendo en cuenta los cambios sustanciales y el comportamiento no esperado.
+
         p Los tipos de entornos pueden variar según su comportamiento y objetivo en función al desarrollo del sistema.
         p Existen tres tipos de desarrollo:
         ul.lista-ul
           li 
             i.fas.fa-check(style="color: #FFB30B")
             |
-            p.mb-0 Desarrollo #[i web]
+            p.mb-0 Desarrollo #[i web].
           li 
             i.fas.fa-check(style="color: #FFB30B")
             |
-            p.mb-0 Servicios #[i web]
+            p.mb-0 Servicios #[i web].
           li 
             i.fas.fa-check(style="color: #FFB30B")
             |
-            p.mb-0 Publicación de #[i Wikis]
+            p.mb-0 Publicación de #[i Wikis].
+
       .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema6/img3.svg', style="width: 450px").m-auto
-    p.mb-5(data-aos="fade-down") Se presenta información sobre la creación de entorno en cuanto, a los tipos de entorno de pruebas, elementos claves, #[i script] de pruebas, ejemplo de #[i script] de pruebas.
+
+    p.mb-5(data-aos="fade-down") Se presenta información sobre la creación de entorno en cuanto, a los tipos de entorno de pruebas, elementos claves, script de pruebas y ejemplo de script de pruebas. 
+
     AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul1")(data-aos="fade-left")
       .row.m-1(titulo="Tipos de entornos de pruebas")
         .col-lg-7.mb-4.mb-lg-0
           p Los entornos de pruebas pueden ser construidos por la empresa que está desarrollando el sistema o por organizaciones que brindan ese tipo de servicio, (Loor et al. 2020).
           p Los tipos de entorno son:
-          p #[b Estándar]: pueden ser creados por los administradores o por personas que tengan permisos por parte de los administradores para crearlos. De esta forma es controlado qué persona sube o realiza cambios en el sistema. 
+          p #[b Estándar]: pueden ser creados por los administradores o las personas a quienes se les haya dado permiso desde la administración, para crearlos. De esta forma se controla qué persona sube o realiza cambios en el sistema. 
+
           p #[b Basados en suscripción]: este tipo de entorno se enfoca en desarrollo de sistemas grandes, con varios módulos y usuarios. 
         .col-lg-5
           figure
@@ -122,7 +132,8 @@
             img(src='@/assets/curso/tema6/img2.png', style="width: 450px").m-auto
       .row.m-1(titulo="Instalación del <em>script</em>")
         .col-lg-7.mb-4.mb-lg-0
-          p El #[i script] de prueba es un conjunto de instrucciones para realizar automáticamente las pruebas al sistema. Estas pruebas son realizadas en el entorno de pruebas automatizadas, se ejecutan según el formato del #[i script], por medio del #[i Script Testing] podemos implementar diferentes comandos para desarrollar un #[i script].
+          p El #[i script] de prueba es un conjunto de instrucciones para realizar automáticamente las pruebas al sistema. Estas pruebas son realizadas en el entorno de pruebas automatizadas, se ejecutan según el formato del <em>script</em>, por medio del <em>Script Testing</em> podemos implementar diferentes comandos para desarrollar un <em>script</em>.
+
         .col-lg-5
           figure
             img(src='@/assets/curso/tema6/img3.png', style="width: 450px").m-auto
@@ -142,13 +153,13 @@
             li 
               i.fas.fa-check(style="color: #FFB30B")
               |
-              p.mb-0 #[b Escribir código usando el lenguaje de programación]: el evaluador efectivamente tendrá que ir más allá de la grabación / reproducción y aprender a construir #[i scripts] simples. Se pueden escribir los #[i scripts] de prueba en un lenguaje más sencillo como #[i JavaScript] o #[i Ruby].
+              p.mb-0 #[b Escribir código usando el lenguaje de programación]:  el evaluador efectivamente tendrá que ir más allá de la grabación/reproducción y aprender a construir <em>scripts</em> simples. Se pueden escribir los <em>scripts</em> de prueba, en un lenguaje más sencillo como <em>JavaScript</em> o <em>Ruby</em>.
         .col-lg-5
           figure
             img(src='@/assets/curso/tema6/img4.png', style="width: 450px").m-auto
       .row.m-1(titulo="Ejemplo de un <em>script</em> de prueba")
         .col-lg-7.mb-4.mb-lg-0
-          p Serie de instrucciones para escribir una secuencia de comando para un inicio de sesión de un sitio #[i web]:
+          p Serie de instrucciones para escribir una secuencia de comando para un inicio de sesión de un sitio <em>web</em>:
           ul.lista-ul
             li 
               i.fas.fa-check(style="color: #FFB30B")
@@ -157,7 +168,7 @@
             li 
               i.fas.fa-check(style="color: #FFB30B")
               |
-              p.mb-0 Actualizar la página de inicio del sitio #[i web], dar #[i click] en iniciar sesión, verificar los campos de nombre de usuario y contraseña.
+              p.mb-0 Actualizar la página de inicio del sitio <em>web</em>, dar clic en iniciar sesión, verificar los campos de nombre de usuario y contraseña.
             li 
               i.fas.fa-check(style="color: #FFB30B")
               |
@@ -173,20 +184,25 @@
             li 
               i.fas.fa-check(style="color: #FFB30B")
               |
-              p.mb-0 Si el título es lo esperado del resultado de la prueba, evidencia el resultado en el informe pertinente.
+              p.mb-0 Si el título es lo esperado del resultado de la prueba, evidenciar el resultado en el informe pertinente.
+
         .col-lg-5
           figure
             img(src='@/assets/curso/tema6/img5.png', style="width: 450px").m-auto
       .row.m-1(titulo="Plantilla de <em>script</em> de prueba")
         .col-lg-7.mb-4.mb-lg-0
-          p #[i Test Script] es un documento con formato reutilizable que contiene información preseleccionada y que es importante para crear un script de prueba utilizable. Este documento determina qué tan detalladas son sus pruebas y qué información debe incluirse en cada caso de prueba.
+          p #[i Test Script] es un documento con formato reutilizable que contiene información preseleccionada y que es importante para crear un script de prueba utilizable. Este documento determina qué tan detalladas son sus pruebas y qué información debe incluirse en cada caso de prueba. 
+
         .col-lg-5
           figure
             img(src='@/assets/curso/tema6/img6.png', style="width: 450px").m-auto
-    Separador
-    #t_6_2
-    .titulo-segundo.color-secundario
-      h2 6.2 Desarrollo guiado por pruebas (TDD)
+    
+    .row.mt-5
+      ul.lista-ul--color.lista-ul--separador
+          li 
+            i.fas.fa-square
+            h3 Desarrollo guiado por pruebas (TDD)
+
     p.mb-5(data-aos="fade-right") Se presenta información sobre el desarrollo dirigido por pruebas, sus características e implementación.
     TabsA.color-secundario(data-aos="fade-left")
       .tarjeta.color-secundario--borde.p-4(titulo="Concepto ")
@@ -256,10 +272,11 @@
                       a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/anexo2.pdf')" target="_blank")
                         span(style="color:#000 !important") Descargar
                         i.fas.fa-file-download(style="color:#000 !important")
-    Separador
-    #t_6_3
-    .titulo-segundo.color-secundario
-      h2 6.3 Codificación de casos
+    .row.mt-5
+      ul.lista-ul--color.lista-ul--separador
+          li 
+            i.fas.fa-square
+            h3 Codificación de casos
     .row
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
@@ -271,19 +288,23 @@
           li 
             i.fas.fa-check(style="color: #FFB30B")
             |
-            p.mb-0 Solo prueba una cosa en un caso de prueba.
+            p.mb-0 Solo se prueba una cosa en un caso de prueba.
+
           li 
             i.fas.fa-check(style="color: #FFB30B")
             |
             p.mb-0 Debe tener un propósito exacto.
+
           li 
             i.fas.fa-check(style="color: #FFB30B")
             |
             p.mb-0 Debe estar escrito en un lenguaje claro y fácil de entender.
+
           li 
             i.fas.fa-check(style="color: #FFB30B")
             |
             p.mb-0 Debe ser relativamente pequeño.
+
           li 
             i.fas.fa-check(style="color: #FFB30B")
             |
@@ -292,6 +313,7 @@
             i.fas.fa-check(style="color: #FFB30B")
             |
             p.mb-0 No debe tener pasos o palabras innecesarias.
+
           li 
             i.fas.fa-check(style="color: #FFB30B")
             |
@@ -300,10 +322,13 @@
             i.fas.fa-check(style="color: #FFB30B")
             |
             p.mb-0 Debe usar terminología consistente e identificación de funcionalidad.
-    Separador
-    #t_6_4
-    .titulo-segundo.color-secundario
-      h2 6.4 Documentación de pruebas
+    
+    .row.mt-5
+      ul.lista-ul--color.lista-ul--separador
+          li 
+            i.fas.fa-square
+            h3 Documentación de pruebas
+
     p.mb-5(data-aos="fade-right") Presenta algunas pruebas que se pueden documentar como: unitarias, estrés, integración.
     .tarjeta.tarjeta--azul.p-4.mb-5(data-aos="fade-left")
       SlyderA(tipo="b")
@@ -404,12 +429,12 @@
           .col-lg-5
             figure
               img(src='@/assets/curso/tema6/img11.png', style="width: 450px").m-auto
-    .row.align-items-center.mb-4
-      .col-auto.pe-0
-        figure
-          img(src='@/assets/curso/tema1/img4.svg', style="width: 30px").m-auto
-      .col
-        p.mb-0 #[b Documentación de estándares]
+    .row.mt-5
+      ul.lista-ul--color.lista-ul--separador
+          li 
+            i.fas.fa-square
+            h3 Documentación de estándares
+
     p.mb-5(data-aos="fade-right") Se presenta información sobre documentos.
     TabsB.color-acento-botones.mb-5(data-aos="fade-left")
       .py-4.py-md-5(titulo="IEEE 1012" :icono="require('@/assets/curso/tema6/img8.svg')")
@@ -542,7 +567,8 @@
       .col-lg-8.p-4.bg-c2
         .row.align-items-center
           .col-lg-8.mb-4.mb-lg-0
-            p.mb-0 Tenga en cuenta que el componente formativo dispone de más recursos que se ubican en este, para ello diríjase al menú principal en donde encontrará entre otros, la síntesis, una actividad didáctica, material complementario.
+            p.mb-0 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
+
           .col-lg-4
             figure
               img(src='@/assets/curso/tema6/img11.svg', style="width: 200px").m-auto

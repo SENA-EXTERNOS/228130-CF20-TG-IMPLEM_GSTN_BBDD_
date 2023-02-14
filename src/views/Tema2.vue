@@ -131,7 +131,8 @@
         .row.justify-content-center.m-1(titulo="Paso 13")
           .col-lg-6.mb-4.mb-lg-0
             p #[b Pruebas de operación]
-            p Consiste en la validación del funcionamiento del sistema con sus respectivos componentes, procedimientos de operación, incluyendo su respectivo arranque y disposición de la base de datos.
+            p Consiste en la validación del funcionamiento del sistema con sus respectivos componentes, procedimientos de operación, incluyendo su arranque concerniente y disposición de la base de datos. 
+            
           .col-lg-4
             figure
               img(src='@/assets/curso/tema2/img14.png', style="width: 350px").m-auto

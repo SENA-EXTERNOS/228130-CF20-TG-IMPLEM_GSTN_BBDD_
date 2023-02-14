@@ -20,10 +20,8 @@
       .py-3.py-md-4(titulo="<em>Script</em> de prueba vs. caso de prueba")
         .row.m-1
           .col-lg-7.mb-4.mb-lg-0
-            p Un script de prueba es un programa corto cuyo objetivo es evaluar determinadas funciones. Un caso de prueba es un documento con una serie de pasos planificados que se debe completar para cumplir un objetivo propuesto.
+            p Un <em>script</em> de prueba es un programa corto cuyo objetivo es evaluar determinadas funciones. Un caso de prueba es un documento con una serie de pasos planificados que se debe completar para cumplir un objetivo propuesto.
           .col-lg-5
-            .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Figura 3.] #[i Script] de prueba vs. caso de prueba
             figure
               img(src='@/assets/curso/tema4/img1.svg', style="width: 550px").m-auto
               figcaption.mt-2 Referencia Nota (Mc Mullin, 2021).
@@ -58,8 +56,6 @@
         .row.m-1
           .col-lg-7.mb-4.mb-lg-0
             p Los casos de prueba tienen la habilidad de medir muchos aspectos del sistema. Los pasos planificados en el caso de pruebas tienen la intención de incluir un resultado de falla en lugar de un resultado exitoso. Algunos ejemplos de casos de pruebas más conocidos son los siguientes:
-            .titulo-sexto.color-acento-contenido
-              p.mb-0 #[b Tabla 1]. Tipos de caso de prueba
             .tabla-a.color-acento-contenido
               table(style="min-width:auto")
                 caption Referencia Nota. Reproducida de Diferentes tipos de casos de prueba. Mc Mullin, (2021).

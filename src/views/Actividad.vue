@@ -10,7 +10,7 @@
             img(src="@/assets/template/seleccion-multiple.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Actividad didáctica
+          h2 Diseño y ejecución de pruebas
         p.mb-4 Apreciado aprendiz, la finalidad de esta actividad es verificar la apropiación de los temas abordados en este componente formativo.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
