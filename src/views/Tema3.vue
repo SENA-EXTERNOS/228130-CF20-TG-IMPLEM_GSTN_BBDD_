@@ -109,7 +109,7 @@
                       li 
                         i.fas.fa-check(style="color: #FFB30B")
                         | 
-                        p.mb-0 Modelo de <em>McCall</em>.
+                        p.mb-0 Modelo de McCall.
                       li 
                         i.fas.fa-check(style="color: #FFB30B")
                         | 
@@ -217,7 +217,7 @@
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             p #[b Marco ISO 9126]
-            p Es un estándar en la ingeniería del software que se fundamenta en relación a la escala de satisfacción a nivel del producto. El objetivo principal en este tipo de modelo es que el producto cumpla con el requerimiento en un contenido específico de uso.
+            p Es un estándar en la ingeniería del <em>software</em> que se fundamenta en relación a la escala de satisfacción a nivel del producto. El objetivo principal en este tipo de modelo es que el producto cumpla con el requerimiento en un contenido específico de uso.
 
             p La norma está compuesta por seis factores:
             ul.lista-ul
@@ -239,13 +239,16 @@
               li 
                 i.fas.fa-check(style="color: #FFB30B")
                 | Portabilidad.
+
+            p La calidad interna y externa expuesta en ISO9126-1 (2001), es declarada como: “la totalidad de atributos de un producto que determina su capacidad de satisfacer necesidades explícitas e implícitas, cuando es usada bajo condiciones específicas”. Se define como calidad externa al “grado en el que un producto satisface necesidades explícitas e implícitas cuando se utiliza bajo condiciones especificadas”.
+
           .col-lg-6
             figure
               img(src='@/assets/curso/tema3/img3.png', style="width: 550px").m-auto
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             p #[b Marco ISO 9126]
-            p Es un estándar en la ingeniería del software que se fundamenta en relación a la escala de satisfacción a nivel del producto. El objetivo principal en este tipo de modelo es que el producto cumpla con el requerimiento en un contenido específico de uso.
+            p Es un estándar en la ingeniería del <em>software</em> que se fundamenta en relación a la escala de satisfacción a nivel del producto. El objetivo principal en este tipo de modelo es que el producto cumpla con el requerimiento en un contenido específico de uso.
             
           .col-lg-6
             figure

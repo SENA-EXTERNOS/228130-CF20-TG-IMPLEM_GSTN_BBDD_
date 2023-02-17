@@ -6,7 +6,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
-      h1 Herramientas de prueba
+      h1 Herramientas de pruebas
     .row.align-items-center.mb-5
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
         figure
@@ -163,13 +163,16 @@
         figure
           img(src='@/assets/curso/tema1/img4.svg', style="width: 30px").m-auto
       .col
-        p.mb-0 #[b Instalación y ejecución de pruebas de rendimiento de una base de datos MySQL]
+        p.mb-0 #[b Instalación y ejecución de pruebas de rendimiento de una base de datos <em>MySQL</em>]
     .row.mb-5
       .col-lg-1.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema2/img2.svg', style="width: 100px").m-auto
       .col-lg-11(data-aos="fade-left")
-        p.mb-0 Instalación y ejecución de pruebas de rendimiento de una base de datos MySQL por medio de una herramienta tecnológica llamada Jmeter, donde se puede revisar y exportar un resumen del resultado de las pruebas y exportar, además, un reporte gráfico donde se evidencian todos los ítems que se tienen en cuenta para la validación del rendimiento de una base de datos.
+        p Instalación y ejecución de pruebas de rendimiento de una base de datos <em>MySQL</em> por medio de una herramienta tecnológica llamada Jmeter, donde se puede revisar y exportar un resumen del resultado de las pruebas y exportar, además, un reporte gráfico donde se evidencian todos los ítems que se tienen en cuenta para la validación del rendimiento de una base de datos.
+        
+        p En el siguiente video, podrá ampliar sus conocimientos sobre instalación y ejecución de pruebas, usando la herramienta Jmeter:
+    
     figure(data-aos="fade-left")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/EbZyEKhsXSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

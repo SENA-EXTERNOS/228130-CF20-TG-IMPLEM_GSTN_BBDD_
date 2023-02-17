@@ -104,7 +104,7 @@
             li 
               i.fas.fa-check(style="color: #FFB30B")
               |
-              p.mb-0 Configuración del servidor de bases de daros.
+              p.mb-0 Configuración del servidor de bases de datos.
             li 
               i.fas.fa-check(style="color: #FFB30B")
               |
@@ -132,7 +132,7 @@
             img(src='@/assets/curso/tema6/img2.png', style="width: 450px").m-auto
       .row.m-1(titulo="Instalación del <em>script</em>")
         .col-lg-7.mb-4.mb-lg-0
-          p El #[i script] de prueba es un conjunto de instrucciones para realizar automáticamente las pruebas al sistema. Estas pruebas son realizadas en el entorno de pruebas automatizadas, se ejecutan según el formato del <em>script</em>, por medio del <em>Script Testing</em> podemos implementar diferentes comandos para desarrollar un <em>script</em>.
+          p El <em>script</em> de prueba es un conjunto de instrucciones para realizar automáticamente las pruebas al sistema. Estas pruebas son realizadas en el entorno de pruebas automatizadas, se ejecutan según el formato del <em>script</em>, por medio del <em>script Testing</em> podemos implementar diferentes comandos para desarrollar un <em>script</em>.
 
         .col-lg-5
           figure

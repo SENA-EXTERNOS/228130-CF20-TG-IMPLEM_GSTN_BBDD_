@@ -9,7 +9,7 @@
       h1 Pruebas
     .row.align-items-center.mb-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
-        p Las pruebas de base de datos, son aquellas que se realizan para comprobar los diferentes métodos y procesos implementados en la gestión de estas bases, para asegurarse que se cumplan las diferentes reglas sobre los datos, como se espera, en su manipulación, que no difieran, o sean borrados, creados o modificados de manera inesperada. También las pruebas abordan el concepto de calidad de los servicios, en cuanto a la efectividad de los datos y la concurrencia de los usuarios a dicha bases.
+        p Las pruebas de base de datos, son aquellas que se realizan para comprobar los diferentes métodos y procesos implementados en la gestión de estas bases, para asegurarse que se cumplan las diferentes reglas sobre los datos, como se espera, en su manipulación, que no difieran, o sean borrados, creados o modificados de manera inesperada. También las pruebas abordan el concepto de calidad de los servicios, en cuanto a la efectividad de los datos y la concurrencia de los usuarios a dichas bases.
       .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img1.svg', style="width: 450px").m-auto
@@ -62,19 +62,10 @@
               .col-12
                 .row.bg-c1.m-0.p-0
                   .col-12.p-3
-                    p Este tipo de pruebas consiste en identificar particiones de entradas y salidas, y se diseñan las respectivas pruebas para que el sistema ejecute las entradas correspondientes a todas esas particiones y genere sus salidas.
-
-                    p Para tener en cuenta: las particiones son datos agrupados según características comunes.
-
-                    p.mb-0 Una buena práctica para seleccionar un caso de pruebas, consiste en seleccionarlos en los límites de las particiones, junto con casos de prueba cercanos al punto medio de las particiones, que se eligen, de acuerdo con las especificaciones del programa.
-            .row
-              .col-12.p-2
-                p.text-center.txt-c1.mb-0 #[b Pruebas basadas en requerimientos]
-              .col-12
-                .row.bg-c1.m-0.p-0
-                  .col-12.p-3
                     p Se diseñan puntualmente para probar los requerimientos del sistema; esta aproximación generalmente se implementa en la etapa de pruebas del sistema.
-                    p Para cada requerimiento registrado, se identifican diferentes casos de prueba que demuestran que el sistema satisface dicho requerimiento.
+
+                    p Para cada requerimiento registrado, se identifican diferentes casos de prueba que demuestran que el sistema satisface dicho requerimiento. 
+          
                     ul.lista-ul
                       li 
                         i.fas.fa-check(style="color: #FFB30B")
@@ -82,15 +73,31 @@
                       li 
                         i.fas.fa-check(style="color: #FFB30B")
                         | Probar atributos no funcionales como la fiabilidad o la usabilidad.
-          .tarjeta.color-secundario.p-2(x="77%" y="73%" numero="+").shadow-lg
+
+          .tarjeta.color-acento-botones.p-2(x="44%" y="50%" numero="+").shadow-lg 
             .row
               .col-12.p-2
                 p.text-center.txt-c1.mb-0 #[b Pruebas basadas en requerimientos]
               .col-12
                 .row.bg-c1.m-0.p-0
                   .col-12.p-3
+                    p Este tipo de pruebas consiste en identificar <b>particiones</b> de entradas y salidas, y se diseñan las respectivas pruebas para que el sistema ejecute las entradas correspondientes a todas esas particiones y genere sus salidas.
+
+                    p Para tener en cuenta: las particiones son datos agrupados según características comunes.
+
+                    p Una buena práctica para seleccionar un caso de pruebas, consiste en seleccionarlos en los límites de las particiones, junto con casos de prueba cercanos al punto medio de las particiones, que se eligen, de acuerdo con las especificaciones del programa.
+                    
+          .tarjeta.color-secundario.p-2(x="77%" y="73%" numero="+").shadow-lg
+            .row
+              .col-12.p-2
+                p.text-center.txt-c1.mb-0 #[b Pruebas estructurales]
+              .col-12
+                .row.bg-c1.m-0.p-0
+                  .col-12.p-3
                     p Conocer la estructura de la base de datos para diseñar las respectivas pruebas con el objetivo de ejecutar todas las partes de la base de datos.
+
                     p.mb-0 Este tipo de aproximaciones son denominadas pruebas de caja blanca.
+                    
     .row.align-items-center.mb-4
       .col-auto.pe-0
         figure
@@ -148,7 +155,7 @@
 
             p Por ende, se definen a partir de funciones o características y su respectiva interoperabilidad con diferentes partes del sistema, lográndose ejecutar en todos los niveles de pruebas integración, componentes, sistemas, etc.
 
-            p Se consideran pruebas de caja negra (“black-box testing”) puesto que se valora el comportamiento externo del sistema. Las pruebas de seguridad o las pruebas de interoperabilidad entre sistemas o componentes, son casos especializados de las pruebas funcionales. (Ramos et al 2019)
+            p Se consideran pruebas de caja negra (“<em>black-box testing</em>”) puesto que se valora el comportamiento externo del sistema. Las pruebas de seguridad o las pruebas de interoperabilidad entre sistemas o componentes, son casos especializados de las pruebas funcionales. (Ramos et al 2019)
 
           .col-lg-5
             figure
@@ -156,7 +163,7 @@
       .py-4.py-md-5(titulo="No funcional" :icono="require('@/assets/curso/tema1/img7.svg')")
         .row.align-items-center
           .col-lg-7.mb-4.mb-lg-0
-            p Las pruebas no funcionales incluyen las de rendimiento, carga, estrés, usabilidad, mantenibilidad, fiabilidad o portabilidad, entre otras. Por ende, se centran en características del software que establecen “cómo trabaja el sistema”.
+            p Las pruebas no funcionales incluyen las de rendimiento, carga, estrés, usabilidad, mantenibilidad, fiabilidad o portabilidad, entre otras. Por ende, se centran en características del <em>software</em> que establecen “cómo trabaja el sistema”.
 
             p También se pueden ejecutar en todos los niveles de pruebas, se puede testear de diversas formas, por ejemplo, por tiempos de respuesta en el caso de pruebas de rendimiento o por número máximo de clientes conectados en pruebas de estrés.
 

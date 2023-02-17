@@ -44,7 +44,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Herramientas de prueba',
+        titulo: 'Herramientas de pruebas',
         desarrolloContenidos: true,
       },
       {
@@ -229,6 +229,7 @@ export default {
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1i756fj/TN_cdi_doaj_primary_oai_doaj_org_article_628e06c68e64447f95ac88bf44252c83',
     },
+
     {
       referencia:
         'Pérez, Y., Gallegos, J., Zapata, S., Ccama, D. & Choque, R. (2020). Design thinking en la planificación de pruebas de <em>software. Innovación y Software, 1</em>(2), p. 40-51.',
@@ -273,7 +274,7 @@ export default {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
         centro:
-          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander.',
       },
     ],
     desarrolloProducto: [

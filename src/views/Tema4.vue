@@ -12,8 +12,11 @@
       .py-3.py-md-4(titulo="Conceptos")
         .row.m-1
           .col-lg-7.mb-4.mb-lg-0
-            p Un caso de prueba es un conjunto de variables o condiciones donde se especificará que un determinado sistema, parte del componente del sistema, o una base de datos, o determinada característica cumple o no cumple con los requerimientos.
-            p Un dato importante al realizar casos de pruebas es que está destinado a probar una tarea en específico o una variable. Esto beneficia al momento de implementar una herramienta de testing, ya que cuenta con más flexibilidad al momento de realizar las pruebas.
+            p <b>Conceptos</b>
+            p Un caso de prueba es un conjunto de variables o condiciones donde se especificará que un determinado sistema, una parte del componente del sistema, o una base de datos, o una característica específica, cumple o no cumple con los requerimientos.
+
+            p Un dato importante al realizar casos de pruebas, es que está destinado a probar una tarea en específico o una variable. Esto es favorecedor al momento de implementar una herramienta de testing, porque cuenta con más flexibilidad cuando se realizan las pruebas.
+
           .col-lg-5
             figure
               img(src='@/assets/curso/tema4/img1.png', style="width: 450px").m-auto
