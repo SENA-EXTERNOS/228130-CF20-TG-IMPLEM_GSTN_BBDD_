@@ -191,7 +191,7 @@
             img(src='@/assets/curso/tema6/img5.png', style="width: 450px").m-auto
       .row.m-1(titulo="Plantilla de <em>script</em> de prueba")
         .col-lg-7.mb-4.mb-lg-0
-          p #[i Test Script] es un documento con formato reutilizable que contiene información preseleccionada y que es importante para crear un script de prueba utilizable. Este documento determina qué tan detalladas son sus pruebas y qué información debe incluirse en cada caso de prueba. 
+          p #[i Test Script] es un documento con formato reutilizable que contiene información preseleccionada y que es importante para crear un <em>script</em> de prueba utilizable. Este documento determina qué tan detalladas son sus pruebas y qué información debe incluirse en cada caso de prueba. 
 
         .col-lg-5
           figure
