@@ -135,7 +135,7 @@
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             p #[b Modelo #[i McCall]]
-            p El modelo McCall se enfoca en la opinión de los usuarios y desarrolladores en tres puntos de vistas cruciales para la medición de calidad del sistema:
+            p El modelo McCall se enfoca en la opinión de los usuarios y desarrolladores en tres puntos de vista cruciales para la medición de calidad del sistema:
             ul.lista-ul
               li 
                 i.fas.fa-check(style="color: #FFB30B")
@@ -167,10 +167,10 @@
               li 
                 i.fas.fa-check(style="color: #FFB30B")
                 | Evaluación del cliente.
-            p Las versiones del sistema a evaluar están dirigidas por el número de iteraciones que va a ser representada en forma de espiral de adentro hacia a fuera, determinando el riesgo y la posible solución.
+            p Las versiones del sistema a evaluar están dirigidas por el número de iteraciones que va a ser representada en forma de espiral de adentro hacia fuera, determinando el riesgo y la posible solución.
           .col-lg-6
             figure
-              img(src='@/assets/curso/tema3/img4.svg', style="width: 550px").m-auto
+              img(src='@/assets/curso/tema3/c1.svg', style="width: 550px").m-auto
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             p #[b Paradigma GQM (#[i Goal-Question-Metric])]
@@ -180,14 +180,14 @@
 
             p #[b Metas]: que son los objetivos, las intenciones específicas y generales que va a tener dicha organización.
             p #[b Preguntas]: se establecen los cuestionarios para cada uno de los objetivos con su correspondiente evaluación.
-            p #[b Métricas]: son la medición con base en las respuestas de las preguntas; cabe indicar que se realiza un análisis de si esa métrica ayudó al proceso cumpliendo el objetivo deseado.
+            p #[b Métricas]: son la medición con base en las respuestas de las preguntas; cabe indicar que se realiza un análisis de sí esa métrica ayudó al proceso cumpliendo el objetivo deseado.
           .col-lg-6
             figure
               img(src='@/assets/curso/tema3/img1.png', style="width: 550px").m-auto
         .row.m-1
           .col-lg-6.mb-4.mb-lg-0
             p #[b Modelo #[i Gilb]]
-            p Mediante este modelo de #[i Gilb] se puede construir una serie de especificaciones las mismas que se describen para determinar la calidad del proyecto.  Este tipo de requerimientos deben ser construidos tanto por el investigador como por el usuario.
+            p Mediante este modelo de #[i Gilb] se puede construir una serie de especificaciones, las mismas que se describen para determinar la calidad del proyecto.  Este tipo de requerimientos deben ser construidos tanto por el investigador como por el usuario.
             p En realidad, lo que se busca es el cumplimiento de los requerimientos definidos, y obteniendo a su vez una satisfacción por parte del usuario. Cada una de las características definidas son medibles a otros tipos de sub características donde se debe especificar:
             ul.lista-ul
               li 
@@ -223,7 +223,7 @@
             ul.lista-ul
               li 
                 i.fas.fa-check(style="color: #FFB30B")
-                | Funcionabilidad.
+                | Funcionalidad.
               li 
                 i.fas.fa-check(style="color: #FFB30B")
                 | Fiabilidad.
@@ -242,14 +242,6 @@
 
             p La calidad interna y externa expuesta en ISO9126-1 (2001), es declarada como: “la totalidad de atributos de un producto que determina su capacidad de satisfacer necesidades explícitas e implícitas, cuando es usada bajo condiciones específicas”. Se define como calidad externa al “grado en el que un producto satisface necesidades explícitas e implícitas cuando se utiliza bajo condiciones especificadas”.
 
-          .col-lg-6
-            figure
-              img(src='@/assets/curso/tema3/img3.png', style="width: 550px").m-auto
-        .row.m-1
-          .col-lg-6.mb-4.mb-lg-0
-            p #[b Marco ISO 9126]
-            p Es un estándar en la ingeniería del <em>software</em> que se fundamenta en relación a la escala de satisfacción a nivel del producto. El objetivo principal en este tipo de modelo es que el producto cumpla con el requerimiento en un contenido específico de uso.
-            
           .col-lg-6
             figure
               img(src='@/assets/curso/tema3/img4.png', style="width: 550px").m-auto

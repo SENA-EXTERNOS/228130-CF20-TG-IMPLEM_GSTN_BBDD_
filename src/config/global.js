@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Diseño y ejecución de pruebas',
     descripcionCurso:
-      'Este componente aborda entre otros, los conceptos de pruebas de forma general, el tipo de prueba que se puede realizar a las bases de datos y herramientas tecnológicas que permiten realizar dichas pruebas. Además, se construye un plan de pruebas que, a su vez, contiene diferentes casos de prueba, diseñados para su respectiva ejecución, logrando una documentación mediante ciertos estándares descritos.',
+      'Este componente, aborda entre otros, los conceptos de pruebas de forma general, el tipo de prueba que se puede realizar a las bases de datos y herramientas tecnológicas que permiten realizar dichas pruebas. Además, se construye un plan de pruebas que, a su vez, contiene diferentes casos de prueba, diseñados para su respectiva ejecución, logrando una documentación mediante ciertos estándares descritos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [

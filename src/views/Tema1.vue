@@ -153,7 +153,7 @@
           .col-lg-7.mb-4.mb-lg-0
             p Se centran en el comportamiento del sistema, o cierta parte del componente del sistema, descrito en las especificaciones de los requerimientos.
 
-            p Por ende, se definen a partir de funciones o características y su respectiva interoperabilidad con diferentes partes del sistema, lográndose ejecutar en todos los niveles de pruebas integración, componentes, sistemas, etc.
+            p Por ende, se definen a partir de funciones o características y su respectiva interoperabilidad con diferentes partes del sistema, lográndose ejecutar en todos los niveles de pruebas, integración, componentes, sistemas, etc.
 
             p Se consideran pruebas de caja negra (“<em>black-box testing</em>”) puesto que se valora el comportamiento externo del sistema. Las pruebas de seguridad o las pruebas de interoperabilidad entre sistemas o componentes, son casos especializados de las pruebas funcionales. (Ramos et al 2019)
 

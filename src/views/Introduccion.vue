@@ -13,7 +13,7 @@
         figure
           img(src='@/assets/curso/intro/img1.svg', style="width: 450px").m-auto
       .col-lg-8(data-aos="fade-left")
-        p Estimado aprendiz, a través del presente componente formativo conocerá sobre las pruebas, sus herramientas y modelos de referencia, las cuales le aportan al diseño y a la construcción del mismo plan de pruebas, aplicado a una base de datos mediante la implementación de herramientas tecnológicas definidas en casos de este tipo. 
+        p Estimado aprendiz, a través del presente componente formativo, conocerá sobre las pruebas, sus herramientas y modelos de referencia, las cuales le aportan al diseño y a la construcción del mismo plan de pruebas, aplicado a una base de datos mediante la implementación de herramientas tecnológicas definidas en casos de este tipo. 
         p Lo invitamos a ver el siguiente video para documentarse sobre cada una de las temáticas comprendidas.
         p #[b ¡Muchos éxitos en este proceso de aprendizaje!]
     figure(data-aos="fade-right")

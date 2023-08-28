@@ -35,10 +35,10 @@
         figure
           img(src='@/assets/curso/tema5/img1.png', style="width: 550px").m-auto
       .col-lg-7(data-aos="fade-left")
-        p La respectiva configuración que lleva un plan de pruebas va en términos de pruebas manuales, pruebas automatizadas acompañadas de un formato de forma general describiendo cada uno de los pasos de cómo se van a ejecutar dichas pruebas. Iniciarán con la evaluación del sistema, implementando los conjuntos de pruebas y los casos de pruebas propuestos, antes de realizar cambios o adicionar nuevas funciones. (Pérez, et al. 2020) 
+        p La respectiva configuración que lleva un plan de pruebas va en términos de pruebas manuales, pruebas automatizadas acompañadas de un formato de forma general, describiendo cada uno de los pasos de cómo se van a ejecutar dichas pruebas. Iniciarán con la evaluación del sistema, implementando los conjuntos de pruebas y los casos de pruebas propuestos, antes de realizar cambios o adicionar nuevas funciones. (Pérez, et al. 2020) 
 
         .cajon.color-acento-contenido.p-4
-          p.mb-0 Además, describe el objetivo de la prueba general y brinda un registro de la gestión de planificación de pruebas. Este plan de pruebas es muy flexible permitiendo ajustar a las necesidades del equipo de trabajo.
+          p.mb-0 Además, describe el objetivo de la prueba general y brinda un registro de la gestión de planificación de pruebas. Este plan de pruebas es muy flexible, permitiendo ajustar a las necesidades del equipo de trabajo.
     .row.align-items-center.mb-4
       .col-auto.pe-0
         figure
@@ -122,7 +122,7 @@
                   i.fas.fa-check(style="color: #FFB30B")
                   |
                   p.mb-0 Fecha de entrega de cada uno de los entregables.
-              p Se recomienda la implementación de una tabla donde el tipo y tamaño de la letra y los colores de la tabla, sean presentados de forma concisa y entendible para que todas las personas involucradas en el plan de pruebas, puedan identificar de forma eficiente, las características de los entregables.
+              p Se recomienda la implementación de una tabla donde el tipo y tamaño de la letra y los colores de la tabla, sean presentados de forma concisa y entendible para que todas las personas involucradas en el plan de pruebas, puedan identificar, de forma eficiente, las características de los entregables.
 
               p Una lista de los documentos que se deben entregar en esta fase:
 
@@ -177,7 +177,7 @@
               p Se debe realiza una lista de las características que no van a ser probadas, justificando por qué no serán parte del plan de pruebas y el riesgo que se pueden generar al no contemplarse.
           .row(titulo="Criterios de aprobación y fallo")
             .col-12
-              p En esta sección se describen los criterios de aceptación que se corroboran al ejecutar cada una de las respectivas pruebas.  Todo error reportado debe ir acompañado de su respectivo mensaje de validación. Cuando un criterio de aprobación es rechazado se toman las respectivas correcciones por el criterio de fallo. Todo criterio de aceptación debe ir siempre acompañado con su respectivo criterio de fallo, donde se especifica la acción que se ejecutará sobre el plan de pruebas.
+              p En esta sección se describen los criterios de aceptación que se corroboran al ejecutar cada una de las respectivas pruebas.  Todo error reportado debe ir acompañado de su respectivo mensaje de validación. Cuando un criterio de aprobación es rechazado, se toman las respectivas correcciones por el criterio de fallo. Todo criterio de aceptación debe ir siempre acompañado con su respectivo criterio de fallo, donde se especifica la acción que se ejecutará sobre el plan de pruebas.
           .row(titulo="Tareas de prueba")
             .col-12
               p Describen cada una de las tareas y su respectiva fecha de ejecución, el objetivo es mantener un buen control de cada una de las tareas incluidas en el plan. Se recomienda tener en cuenta las siguientes indicaciones:

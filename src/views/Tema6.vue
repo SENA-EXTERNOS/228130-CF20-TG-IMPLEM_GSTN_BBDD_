@@ -45,7 +45,7 @@
         figure
           img(src='@/assets/curso/tema6/img2.svg', style="width: 50px").m-auto
       .col-lg-11(data-aos="fade-left")
-        p Un entorno de prueba es la respectiva configuración de tipos de entornos para determina prueba. Por ejemplo, un entorno de prueba que implementan #[i Chrome], #[i Windows] 10 y #[i Apache Tomcat] es una configuración de estos tipos de entorno: navegador, sistema operativo y servidor de aplicaciones.
+        p Un entorno de prueba es la respectiva configuración de tipos de entornos para determinada prueba. Por ejemplo, un entorno de prueba que implementan #[i Chrome], #[i Windows] 10 y #[i Apache Tomcat] es una configuración de estos tipos de entorno: navegador, sistema operativo y servidor de aplicaciones.
         p Cada tipo de entorno puede tener uno o más valores. Una plataforma de plan de pruebas es el conjunto de todos los tipos de entorno y sus respectivos valores para determinado plan de prueba. La plataforma está encargada del soporte del producto y de la prueba que está realizando el equipo.
     .row.mb-5
       .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
@@ -149,7 +149,7 @@
             li 
               i.fas.fa-check(style="color: #FFB30B")
               |
-              p.mb-0 #[b Secuencia de comandos basadas en palabra clave/datos]: en este método hay una independencia entre evaluadores y desarrolladores. En la secuencia de comandos basada en datos, el evaluador define la prueba implementando palabras claves. El trabajo de los desarrolladores consiste en la implementación del código del #[i script] de prueba para las palabras claves y actualizar el código cuando sea pertinente.
+              p.mb-0 #[b Secuencia de comandos basados en palabras claves /datos]: en este método hay una independencia entre evaluadores y desarrolladores. En la secuencia de comandos basada en datos, el evaluador define la prueba implementando palabras claves. El trabajo de los desarrolladores consiste en la implementación del código del #[i script] de prueba para las palabras claves y actualizar el código cuando sea pertinente.
             li 
               i.fas.fa-check(style="color: #FFB30B")
               |
@@ -164,7 +164,7 @@
             li 
               i.fas.fa-check(style="color: #FFB30B")
               |
-              p.mb-0 Especificar en la herramienta de automatización que pueda localizar los campos nombre de usuario y contraseña.
+              p.mb-0 Especificar en la herramienta de automatización que pueda localizar los campos, nombre de usuario y contraseña.
             li 
               i.fas.fa-check(style="color: #FFB30B")
               |
@@ -172,7 +172,7 @@
             li 
               i.fas.fa-check(style="color: #FFB30B")
               |
-              p.mb-0 Continuar escribiendo el nombre de usuario y la contraseña, oprimir el botón ingresar.
+              p.mb-0 Continuar escribiendo el nombre de usuario y la contraseña, oprimir el botón, ingresar.
             li 
               i.fas.fa-check(style="color: #FFB30B")
               |
@@ -204,6 +204,8 @@
             h3 Desarrollo guiado por pruebas (TDD)
 
     p.mb-5(data-aos="fade-right") Se presenta información sobre el desarrollo dirigido por pruebas, sus características e implementación.
+    .row.justify-content-center.mb-5
+      .col-lg-6: img(src='@/assets/curso/tema6/c2.png', alt='')
     TabsA.color-secundario(data-aos="fade-left")
       .tarjeta.color-secundario--borde.p-4(titulo="Concepto ")
         .row
@@ -334,7 +336,6 @@
       SlyderA(tipo="b")
         .row.m-1
           .col-lg-7.mb-4.mb-lg-0
-            p #[b Unitarias]
             p Documentar el código de un programa es adicionar información importante que permita explicar lo que realiza esa determinada acción, paso a paso, para que al momento de ser observada por otro desarrollador lo pueda comprender de forma rápida.
             p Las pruebas unitarias son una forma de comprobar que cierto fragmento de código funciona perfectamente, es un procedimiento más que se lleva a cabo durante la implementación de metodologías ágiles.
           .col-lg-5
@@ -342,7 +343,6 @@
               img(src='@/assets/curso/tema6/img7.png', style="width: 450px").m-auto
         .row.m-1
           .col-lg-7.mb-4.mb-lg-0
-            p #[b Unitarias]
             p #[b Características de las pruebas unitarias:]
             ul.lista-ul
               li 
@@ -375,7 +375,7 @@
         .row.m-1
           .col-lg-7.mb-4.mb-lg-0
             p #[b Estrés]
-            p Es una prueba de carga que se implementa para determinar los límites del sistema. Normalmente se requiere realizar prueba de estrés a una #[i API] o de un sitio #[i web] para determinar:
+            p Es una prueba de carga que se implementa para determinar los límites del sistema. Normalmente, se requiere realizar prueba de estrés a una #[i API] o de un sitio #[i web] para determinar:
             ul.lista-ul
               li 
                 i.fas.fa-check(style="color: #FFB30B")
@@ -392,7 +392,7 @@
               li 
                 i.fas.fa-check(style="color: #FFB30B")
                 |
-                p.mb-0 La recuperación del sistema ante posibles fallas de forma inesperadas.
+                p.mb-0 La recuperación del sistema ante posibles fallas de forma inesperada.
             p Hay que tener en cuenta que una prueba de estrés no significa que el sistema se va a comportar siempre de esa forma, es una prueba de exposición a posibles picos de carga para evaluar su rendimiento.
           .col-lg-5
             figure
@@ -513,7 +513,7 @@
               li 
                 i.fas.fa-check(style="color: #FFB30B")
                 |
-                p.mb-0 Informe de prueba maestro (MTR). Se registra cada una las fases realizadas en la ejecución de las pruebas, también contiene cada una de las evaluaciones de calidad realizadas, las acciones de corrección ejecutadas. Además, se registra qué pruebas se realizaron y cuánto fue su duración, para mejoras en futuras planificaciones. Este documento final se utiliza para indicar si el sistema de #[i software] bajo prueba es apto para el propósito de acuerdo con el cumplimiento de los criterios de aceptación.
+                p.mb-0 Informe de prueba maestro (MTR). Se registra cada una las fases realizadas en la ejecución de las pruebas, también contiene cada una de las evaluaciones de calidad realizadas, las acciones de corrección ejecutadas. Además, se registra qué pruebas se realizaron y cuánto fue su duración, para mejoras en futuras planificaciones. Este documento final se utiliza para indicar si el sistema de #[i software] bajo pruebas es apto para el propósito de acuerdo con el cumplimiento de los criterios de aceptación.
           .col-lg-5
             figure
               img(src='@/assets/curso/tema6/img13.png', style="width: 450px").m-auto
@@ -538,7 +538,7 @@
                 i.fas.fa-check(style="color: #FFB30B")
                 |
                 p.mb-0 Medición, análisis y mejora.
-            P La documentación obligatoria que exige la norma ISO es la siguientes:
+            P La documentación obligatoria que exige la norma ISO es la siguiente:
             ul.lista-ul
               li 
                 i.fas.fa-check(style="color: #FFB30B")

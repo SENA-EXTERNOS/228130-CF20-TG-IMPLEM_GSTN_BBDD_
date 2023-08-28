@@ -35,11 +35,11 @@
               li 
                 i.fas.fa-check(style="color: #FFB30B")
                 |
-                p.mb-0 #[b Identificador]: puede ser numérico o alfanumérico, como su nombre lo dice permite identificar un caso de prueba según su código.
+                p.mb-0 #[b Identificador]: puede ser numérico o alfanumérico, como su nombre lo dice, permite identificar un caso de prueba según su código.
               li 
                 i.fas.fa-check(style="color: #FFB30B")
                 |
-                p.mb-0 #[b Nombre del caso de prueba]: se debe implementar una nomenclatura predefina o estándar. Lo más importante es emplear un nombre significativo en base a lo que se va a probar.
+                p.mb-0 #[b Nombre del caso de prueba]: se debe implementar una nomenclatura predefina o estándar. Lo más importante es emplear un nombre significativo con base en lo que se va a probar.
               li 
                 i.fas.fa-check(style="color: #FFB30B")
                 | 
