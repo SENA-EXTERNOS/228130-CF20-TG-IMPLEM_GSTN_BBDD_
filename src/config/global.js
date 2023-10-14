@@ -166,7 +166,7 @@ export default {
     {
       termino: 'ISO',
       significado:
-        'ISO son implementadas para mejorar los procesos en las empresas, esta norma establece un sistema para gestionar la calidad de los productos o servicios.',
+        ' ISO son implementadas para mejorar los procesos en las empresas, esta norma establece un sistema para gestionar la calidad de los productos o servicios.',
     },
     {
       termino: 'Plan de pruebas',

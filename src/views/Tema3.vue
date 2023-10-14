@@ -38,7 +38,7 @@
               .col-12
                 .row.bg-c1.m-0.p-0
                   .col-12.p-3
-                    p.mb-0 Este método de pruebas tiene como objetivo generar casos ejecutables basándose en el modelo y diseño de alto nivel del sistema.
+                    p.mb-0 Este método de pruebas tiene como objetivo generar casos y ejecutables, basándose en el modelo y diseño de alto nivel del sistema.
           .tarjeta.color-primario.p-2(x="39%" y="70%" numero="+").shadow-lg
             .row
               .col-12.p-2
@@ -47,27 +47,27 @@
                 .row.bg-c1.m-0.p-0
                   .col-12.p-3
                     ol.lista-ol--cuadro
-                      li 
+                      li
                         .lista-ol--cuadro__vineta
                           span 1
                         | La construcción de un modelo donde se documenten los aspectos más relevantes del comportamiento del sistema.
-                      li 
+                      li
                         .lista-ol--cuadro__vineta
                           span 2
                         | Generación de casos de pruebas a partir del modelo. Estas pruebas que se van a planificar son de alto nivel, representan la parte lógica de los casos de prueba y no especifican si están descritas en un lenguaje de programación.
-                      li 
+                      li
                         .lista-ol--cuadro__vineta
                           span 3
                         | Corroboración de los casos de prueba. Las pruebas de alto nivel se concretizan por medio de un código o script en alguna tecnología elegida para que sean ejecutadas dichos casos de pruebas.
-                      li 
+                      li
                         .lista-ol--cuadro__vineta
                           span 4
                         | La ejecución de los casos de pruebas sobre el sistema que se está evaluando.
-                      li 
+                      li
                         .lista-ol--cuadro__vineta
                           span 5
                         | La obtención del reporte de los resultados producto de la ejecución de los casos de pruebas.
-                      li 
+                      li
                         .lista-ol--cuadro__vineta
                           span 6
                         | Analizar los resultados obtenidos.
@@ -79,22 +79,22 @@
                 .row.bg-c1.m-0.p-0
                   .col-12.p-3
                     ul.lista-ul
-                      li 
+                      li
                         i.fas.fa-check(style="color: #FFB30B")
                         | Ubicación de errores en el sistema que se está evaluando.
-                      li 
+                      li
                         i.fas.fa-check(style="color: #FFB30B")
                         | Reducción en los tiempos del proceso y costos en la gestión de pruebas.
-                      li 
+                      li
                         i.fas.fa-check(style="color: #FFB30B")
                         | Mejoramiento de la calidad de las pruebas a ejecutar.
-                      li 
+                      li
                         i.fas.fa-check(style="color: #FFB30B")
                         | Detección de anomalías en ciertos requerimientos.
-                      li 
+                      li
                         i.fas.fa-check(style="color: #FFB30B")
                         | Mejoramiento en la trazabilidad.
-                      li 
+                      li
                         i.fas.fa-check(style="color: #FFB30B")
                         | Requerimientos actualizados y evolucionados.
           .tarjeta.color-primario.p-2(x="90%" y="70%" numero="+").shadow-lg
@@ -106,21 +106,21 @@
                   .col-12.p-3
                     p Modelos más implementados:
                     ul.lista-ul
-                      li 
+                      li
                         i.fas.fa-check(style="color: #FFB30B")
-                        | 
+                        |
                         p.mb-0 Modelo de McCall.
-                      li 
+                      li
                         i.fas.fa-check(style="color: #FFB30B")
-                        | 
+                        |
                         p.mb-0 Modelo de #[i Boehm].
-                      li 
+                      li
                         i.fas.fa-check(style="color: #FFB30B")
-                        | 
+                        |
                         p.mb-0 Modelo de #[i Gilb].
-                      li 
+                      li
                         i.fas.fa-check(style="color: #FFB30B")
-                        | 
+                        |
                         p.mb-0 Modelo ISO 9126.
 
     .row.align-items-center.mb-4
@@ -137,13 +137,13 @@
             p #[b Modelo #[i McCall]]
             p El modelo McCall se enfoca en la opinión de los usuarios y desarrolladores en tres puntos de vista cruciales para la medición de calidad del sistema:
             ul.lista-ul
-              li 
+              li
                 i.fas.fa-check(style="color: #FFB30B")
                 | Operación.
-              li 
+              li
                 i.fas.fa-check(style="color: #FFB30B")
                 | Revisión.
-              li 
+              li
                 i.fas.fa-check(style="color: #FFB30B")
                 | Transición.
             p Cada uno de esos parámetros se subdividen en diferentes características que son de gran ayuda para determinar la respectiva validación.
@@ -155,16 +155,16 @@
             p #[b Modelo #[i Boehm]]
             p El modelo de #[i Boehm] es definido por un ciclo de vida del tipo espiral, creado por #[i Barry Boehm] en el año de 1988, donde incluye el análisis de riesgos. Las cuatro (4) fases primordiales en este modelo son:
             ul.lista-ul
-              li 
+              li
                 i.fas.fa-check(style="color: #FFB30B")
                 | Planificación.
-              li 
+              li
                 i.fas.fa-check(style="color: #FFB30B")
                 | Análisis de riesgo.
-              li 
+              li
                 i.fas.fa-check(style="color: #FFB30B")
                 | Ingeniería.
-              li 
+              li
                 i.fas.fa-check(style="color: #FFB30B")
                 | Evaluación del cliente.
             p Las versiones del sistema a evaluar están dirigidas por el número de iteraciones que va a ser representada en forma de espiral de adentro hacia fuera, determinando el riesgo y la posible solución.
@@ -190,25 +190,25 @@
             p Mediante este modelo de #[i Gilb] se puede construir una serie de especificaciones, las mismas que se describen para determinar la calidad del proyecto.  Este tipo de requerimientos deben ser construidos tanto por el investigador como por el usuario.
             p En realidad, lo que se busca es el cumplimiento de los requerimientos definidos, y obteniendo a su vez una satisfacción por parte del usuario. Cada una de las características definidas son medibles a otros tipos de sub características donde se debe especificar:
             ul.lista-ul
-              li 
+              li
                 i.fas.fa-check(style="color: #FFB30B")
                 | Nombre de la característica.
-              li 
+              li
                 i.fas.fa-check(style="color: #FFB30B")
                 | Unidad de medición.
-              li 
+              li
                 i.fas.fa-check(style="color: #FFB30B")
                 | Prueba o recogida de datos.
-              li 
+              li
                 i.fas.fa-check(style="color: #FFB30B")
                 | El valor estimado.
-              li 
+              li
                 i.fas.fa-check(style="color: #FFB30B")
                 | El valor óptimo.
-              li 
+              li
                 i.fas.fa-check(style="color: #FFB30B")
                 | El valor obtenido en el sistema.
-              li 
+              li
                 i.fas.fa-check(style="color: #FFB30B")
                 | Observaciones.
           .col-lg-6
@@ -221,22 +221,22 @@
 
             p La norma está compuesta por seis factores:
             ul.lista-ul
-              li 
+              li
                 i.fas.fa-check(style="color: #FFB30B")
                 | Funcionalidad.
-              li 
+              li
                 i.fas.fa-check(style="color: #FFB30B")
                 | Fiabilidad.
-              li 
+              li
                 i.fas.fa-check(style="color: #FFB30B")
                 | Usabilidad.
-              li 
+              li
                 i.fas.fa-check(style="color: #FFB30B")
                 | Eficiencia.
-              li 
+              li
                 i.fas.fa-check(style="color: #FFB30B")
                 | Mantenibilidad.
-              li 
+              li
                 i.fas.fa-check(style="color: #FFB30B")
                 | Portabilidad.
 

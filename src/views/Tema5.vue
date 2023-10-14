@@ -35,7 +35,7 @@
         figure
           img(src='@/assets/curso/tema5/img1.png', style="width: 550px").m-auto
       .col-lg-7(data-aos="fade-left")
-        p La respectiva configuración que lleva un plan de pruebas va en términos de pruebas manuales, pruebas automatizadas acompañadas de un formato de forma general, describiendo cada uno de los pasos de cómo se van a ejecutar dichas pruebas. Iniciarán con la evaluación del sistema, implementando los conjuntos de pruebas y los casos de pruebas propuestos, antes de realizar cambios o adicionar nuevas funciones. (Pérez, et al. 2020) 
+        p La respectiva configuración que lleva un plan de pruebas va en términos de pruebas manuales, pruebas automatizadas acompañadas de un formato de forma general, describiendo cada uno de los pasos de cómo se van a ejecutar dichas pruebas. Iniciarán con la evaluación del sistema, implementando los conjuntos de pruebas y los casos de pruebas propuestos, antes de realizar cambios o adicionar nuevas funciones. (Pérez, et al. 2020)
 
         .cajon.color-acento-contenido.p-4
           p.mb-0 Además, describe el objetivo de la prueba general y brinda un registro de la gestión de planificación de pruebas. Este plan de pruebas es muy flexible, permitiendo ajustar a las necesidades del equipo de trabajo.
@@ -102,54 +102,54 @@
             .col-12
               p En esta fase corresponde al alistamiento de todos los documentos que se entregaran como parte de la implementación del plan de pruebas, especificando los siguientes datos:
               ul.lista-ul
-                li 
+                li
                   i.fas.fa-check(style="color: #FFB30B")
                   |
                   p.mb-0 Nombre del documento.
-                li 
+                li
                   i.fas.fa-check(style="color: #FFB30B")
                   |
                   p.mb-0 Persona encargada de la entrega del documento.
-                li 
+                li
                   i.fas.fa-check(style="color: #FFB30B")
                   |
                   p.mb-0 Nombre de la persona que recibe este documento.
-                li 
+                li
                   i.fas.fa-check(style="color: #FFB30B")
                   |
                   p.mb-0 Fecha planificada.
-                li 
+                li
                   i.fas.fa-check(style="color: #FFB30B")
                   |
                   p.mb-0 Fecha de entrega de cada uno de los entregables.
-              p Se recomienda la implementación de una tabla donde el tipo y tamaño de la letra y los colores de la tabla, sean presentados de forma concisa y entendible para que todas las personas involucradas en el plan de pruebas, puedan identificar, de forma eficiente, las características de los entregables.
+              p Se recomienda la implementación de una tabla donde el tipo de letra, el tamaño de la letra y los colores de la tabla sean de forma concisa y entendible para que todas las personas involucradas en el plan de pruebas, puedan identificar, de forma eficiente las características de los entregables.
 
               p Una lista de los documentos que se deben entregar en esta fase:
 
               ul.lista-ul
-                li 
+                li
                   i.fas.fa-check(style="color: #FFB30B")
                   |
                   p.mb-0 Casos de pruebas.
-                li 
+                li
                   i.fas.fa-check(style="color: #FFB30B")
                   |
                   p.mb-0 Especificación del diseño del caso de prueba.
-                li 
+                li
                   i.fas.fa-check(style="color: #FFB30B")
                   |
                   p.mb-0 Reportes de defectos o novedades.
 
-                li 
+                li
                   i.fas.fa-check(style="color: #FFB30B")
                   |
                   p.mb-0 Evidencias de las pruebas.
 
-                li 
+                li
                   i.fas.fa-check(style="color: #FFB30B")
                   |
                   p.mb-0 Reportes reflejados por alguna herramienta de gestión de pruebas.
-                li 
+                li
                   i.fas.fa-check(style="color: #FFB30B")
                   |
                   p.mb-0 Otro documento que se considere relevante entregar y/o adjuntar.
@@ -159,15 +159,15 @@
               p En este ítem se realiza una lista de todas las características que serán objetos de pruebas. Es de vital importancia realizar la lista con los interesados del proyecto, para determinar con exactitud las características que serán probadas en el plan.
               p Algunas características a tener en cuenta son:
               ul.lista-ul
-                li 
+                li
                   i.fas.fa-check(style="color: #FFB30B")
                   |
                   p.mb-0 Características funcionales.
-                li 
+                li
                   i.fas.fa-check(style="color: #FFB30B")
                   |
                   p.mb-0 Características no funcionales.
-                li 
+                li
                   i.fas.fa-check(style="color: #FFB30B")
                   |
                   p.mb-0 Interfaz gráfica, etc.
@@ -182,31 +182,31 @@
             .col-12
               p Describen cada una de las tareas y su respectiva fecha de ejecución, el objetivo es mantener un buen control de cada una de las tareas incluidas en el plan. Se recomienda tener en cuenta las siguientes indicaciones:
               ul.lista-ul
-                li 
+                li
                   i.fas.fa-check(style="color: #FFB30B")
                   |
                   p.mb-0 Establecer el nombre de la tarea.
-                li 
+                li
                   i.fas.fa-check(style="color: #FFB30B")
                   |
                   p.mb-0 Descripción de la tarea.
-                li 
+                li
                   i.fas.fa-check(style="color: #FFB30B")
                   |
                   p.mb-0 Fecha de inicio.
-                li 
+                li
                   i.fas.fa-check(style="color: #FFB30B")
                   |
                   p.mb-0 Fecha de finalización.
-                li 
+                li
                   i.fas.fa-check(style="color: #FFB30B")
                   |
                   p.mb-0 Duración de la tarea.
-                li 
+                li
                   i.fas.fa-check(style="color: #FFB30B")
                   |
                   p.mb-0 Persona responsable de la tarea.
-                li 
+                li
                   i.fas.fa-check(style="color: #FFB30B")
                   |
                   p.mb-0 Rol que desempeña la tarea.
@@ -214,7 +214,7 @@
           .row(titulo="Modificadores")
             .col-12
               p Hay dos tipos de modificaciones o ampliaciones dentro de un plan de pruebas, que han de tomarse en cuenta para que se pueda cubrir toda la funcionalidad existente:
-              p #[b Funcionalidades de usuario final]: cuando se agregan nuevos módulos, pantallas o flujos en las funcionalidades que son utilizadas por el cliente o se evidencian visualmente. 
+              p #[b Funcionalidades de usuario final]: cuando se agregan nuevos módulos, pantallas o flujos en las funcionalidades que son utilizadas por el cliente o se evidencian visualmente.
               p #[b Funcionalidades internas]: son cambios internos que mantienen todos los elementos visuales de la misma manera, por lo tanto, el cliente final no observa ninguna modificación, pero al modificar componentes o flujos internos, como accesos a base de datos o a capas de lógica de negocio, deben cubrirse con casos de pruebas dentro del plan de pruebas e incluir toda la funcionalidad de este tipo.
 
 </template>

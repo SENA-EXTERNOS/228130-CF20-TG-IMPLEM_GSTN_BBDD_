@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-  
+
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
@@ -13,15 +13,15 @@
       .col-lg-4(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema1/img1.svg', style="width: 450px").m-auto
-    
+
     .row.mt-5.justify-content-center
       .col-lg-12
         .cajon.color-acento-contenido.p-4
           p.mb-0 Además, las pruebas son una técnica de detención de defectos que se caracteriza por construir fallas o errores de manera planificada. El objetivo es detectar fallas antes del paso a producción.
-    
+
     .row.mt-5
       ul.lista-ul--color.lista-ul--separador
-          li 
+          li
             i.fas.fa-square
             h3 Diseño de casos de prueba
 
@@ -37,13 +37,13 @@
         p Cómo se diseña un caso de prueba:
 
         ul.lista-ul
-          li 
+          li
             i.fas.fa-check(style="color: #FFB30B")
             | Seleccionar una característica de la base de datos, o el componente que se desea probar.
-          li 
+          li
             i.fas.fa-check(style="color: #FFB30B")
             | Seleccionar un conjunto de entradas que ejecutarán las características pertinentes.
-          li 
+          li
             i.fas.fa-check(style="color: #FFB30B")
             | Documentar las salidas obtenidas o los diferentes rangos de salida.
 
@@ -64,17 +64,17 @@
                   .col-12.p-3
                     p Se diseñan puntualmente para probar los requerimientos del sistema; esta aproximación generalmente se implementa en la etapa de pruebas del sistema.
 
-                    p Para cada requerimiento registrado, se identifican diferentes casos de prueba que demuestran que el sistema satisface dicho requerimiento. 
-          
+                    p Para cada requerimiento registrado, se identifican diferentes casos de prueba que demuestran que el sistema satisface dicho requerimiento.
+
                     ul.lista-ul
-                      li 
+                      li
                         i.fas.fa-check(style="color: #FFB30B")
                         | Demostrar que el sistema implementó adecuadamente sus requerimientos.
-                      li 
+                      li
                         i.fas.fa-check(style="color: #FFB30B")
                         | Probar atributos no funcionales como la fiabilidad o la usabilidad.
 
-          .tarjeta.color-acento-botones.p-2(x="44%" y="50%" numero="+").shadow-lg 
+          .tarjeta.color-acento-botones.p-2(x="44%" y="50%" numero="+").shadow-lg
             .row
               .col-12.p-2
                 p.text-center.txt-c1.mb-0 #[b Pruebas basadas en requerimientos]
@@ -86,7 +86,7 @@
                     p Para tener en cuenta: las particiones son datos agrupados según características comunes.
 
                     p Una buena práctica para seleccionar un caso de pruebas, consiste en seleccionarlos en los límites de las particiones, junto con casos de prueba cercanos al punto medio de las particiones, que se eligen, de acuerdo con las especificaciones del programa.
-                    
+
           .tarjeta.color-secundario.p-2(x="77%" y="73%" numero="+").shadow-lg
             .row
               .col-12.p-2
@@ -97,7 +97,7 @@
                     p Conocer la estructura de la base de datos para diseñar las respectivas pruebas con el objetivo de ejecutar todas las partes de la base de datos.
 
                     p.mb-0 Este tipo de aproximaciones son denominadas pruebas de caja blanca.
-                    
+
     .row.align-items-center.mb-4
       .col-auto.pe-0
         figure
@@ -111,22 +111,22 @@
         .row.justify-content-center
           .col-lg-7
             ul.lista-ul
-              li 
+              li
                 i.fas.fa-check(style="color: #FFB30B")
                 | Capacidad de admitir el marco de pruebas.
-              li 
+              li
                 i.fas.fa-check(style="color: #FFB30B")
                 | Control de revisión.
-              li 
+              li
                 i.fas.fa-check(style="color: #FFB30B")
                 | Gestión de configuración de prueba.
-              li 
+              li
                 i.fas.fa-check(style="color: #FFB30B")
                 | Seguimiento de problemas.
-              li 
+              li
                 i.fas.fa-check(style="color: #FFB30B")
                 | Generación de informes.
-              li 
+              li
                 i.fas.fa-check(style="color: #FFB30B")
                 | Capacidad de configurar formatos de informes.
       .col-lg-5(data-aos="fade-left")
@@ -155,7 +155,7 @@
 
             p Por ende, se definen a partir de funciones o características y su respectiva interoperabilidad con diferentes partes del sistema, lográndose ejecutar en todos los niveles de pruebas, integración, componentes, sistemas, etc.
 
-            p Se consideran pruebas de caja negra (“<em>black-box testing</em>”) puesto que se valora el comportamiento externo del sistema. Las pruebas de seguridad o las pruebas de interoperabilidad entre sistemas o componentes, son casos especializados de las pruebas funcionales. (Ramos et al 2019)
+            p Se consideran pruebas de caja negra (“<em>black-box testing</em>”) puesto que se valora el comportamiento externo del sistema. Las pruebas de seguridad o las pruebas de interoperabilidad entre sistemas o componentes, son casos especializados de las pruebas funcionales. (Ramos et al, 2019)
 
           .col-lg-5
             figure
@@ -163,14 +163,14 @@
       .py-4.py-md-5(titulo="No funcional" :icono="require('@/assets/curso/tema1/img7.svg')")
         .row.align-items-center
           .col-lg-7.mb-4.mb-lg-0
-            p Las pruebas no funcionales incluyen las de rendimiento, carga, estrés, usabilidad, mantenibilidad, fiabilidad o portabilidad, entre otras. Por ende, se centran en características del <em>software</em> que establecen “cómo trabaja el sistema”.
+            p Las pruebas no funcionales incluyen las de rendimiento, carga, estrés, usabilidad, mantenibilidad, fiabilidad o portabilidad, entre otras. Por ende, se centran en características del <em>software</em> que establecen “cómo trabaja el sistema”. (Reyes et al, 2020)
 
             p También se pueden ejecutar en todos los niveles de pruebas, se puede testear de diversas formas, por ejemplo, por tiempos de respuesta en el caso de pruebas de rendimiento o por número máximo de clientes conectados en pruebas de estrés.
 
           .col-lg-5
             figure
               img(src='@/assets/curso/tema1/img10.svg', style="width: 350px").m-auto
-      
+
 </template>
 
 <script>
